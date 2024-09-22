@@ -18,7 +18,7 @@ const nextConfig = {
           },
         ],
       },
-    ];
+    ]
   },
   async rewrites() {
     return [
@@ -26,8 +26,8 @@ const nextConfig = {
         source: '/usports/:path*',
         destination: `/:path*`,
       },
-    ];
+    ]
   },
-};
+}
 
-export default nextConfig;
+export default nextConfig
